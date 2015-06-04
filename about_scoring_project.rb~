@@ -36,9 +36,8 @@ def score(dice)
       count_hash[item] += 1
     end
     count_hash.each do |key, value|
-     print "#{key}-----#{value}"
-puts "hi"
-     print "\n"
+     puts "#{key} #{value}"
+     puts "master"
     end
     sum = 0
     count_hash.each do |key, value|

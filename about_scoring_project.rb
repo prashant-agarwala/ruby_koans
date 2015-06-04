@@ -37,7 +37,9 @@ def score(dice)
     end
     count_hash.each do |key, value|
      puts "#{key} #{value}"
+     puts "master1"
     end
+     puts "master2"
     sum = 0
     count_hash.each do |key, value|
      if (key == 1)
